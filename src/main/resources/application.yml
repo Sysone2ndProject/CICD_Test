@@ -28,8 +28,8 @@ spring:
       on-profile: blue
 
 server:
-  port: ${server.port.blue}
-  serverAddress: ${server.address.blue}
+  port: 8080
+  serverAddress: 43.202.52.66
 
 serverName: blue_server
 
@@ -41,8 +41,8 @@ spring:
       on-profile: green
 
 server:
-  port: ${server.port.green}
-  serverAddress: ${server.address.green}
+  port: 8081
+  serverAddress: 43.202.52.66
 
 serverName: green_server
 
